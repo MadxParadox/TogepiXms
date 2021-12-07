@@ -26,7 +26,7 @@ The easiest way to deploy this Bot
 
 ## Devloper
 
-#### • [Paradox](https://github.com/MadParadox) (Owner) 
+#### • [Paradox](https://github.com/MadxParadox) (Owner) 
 
 
 ## Special Credits
