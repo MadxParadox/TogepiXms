@@ -6,7 +6,7 @@
   <a href="https://github.com/MadxParadox/TogepiXms/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
 
-<p align="center"><a href="https://t.me/IpintpiRobot"><img src="https://telegra.ph/file/10139851d5bf597ce8c25.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/TogepiRobot"><img src="https://telegra.ph/file/c98995470b8589efb2c80.jpg" width="400"></a></p>
 
 <p align="center">
     <a href="https://github.com/MadxParadox/TogepiXms"> <img src="https://img.shields.io/github/repo-size/MadxParadox/TogepiRobot?color=Green&logo=github&logoColor=green&style=for-the-badge" /></a>
