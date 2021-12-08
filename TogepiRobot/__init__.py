@@ -198,7 +198,7 @@ else:
 #install aiohttp session
 print("[TogepiRobot]: Initializing AIOHTTP Session")
 aiohttpsession = ClientSession() 
-arq = ARQ("https://thearq.tech", "YIECCC-NAJARO-OLLREW-SJSRIP-ARQ", aiohttpsession)
+arq = ARQ("https://thearq.tech", "NLLCQR-EPBTLT-MGFIEX-NOSYQB-ARQ", aiohttpsession)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("KURUMIBOT", API_ID, API_HASH)
 pgram = Client("TogepiRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
