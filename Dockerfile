@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/TogepiRobot
-RUN git clone -b shiken https://github.com/Soedirmand/TogepiRobot /root/TogepiRobot
+RUN git clone -b shiken https://github.com/MadxParadox/TogepiRobot /root/TogepiRobot
 WORKDIR /root/TogepiRobot
 
 #Copy config file to /root/TogepiRobot/TogepiRobot
