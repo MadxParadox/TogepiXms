@@ -79,14 +79,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ──『[ᴜ&ɪ](https://telegra.ph/file/10139851d5bf597ce8c25.jpg)』
+ ──『[Togepi](https://telegra.ph/file/c98995470b8589efb2c80.jpg)』
 
 *ʜɪ ᴛʜᴇʀᴇ*!!
 ──────────────────────
 *ᴜᴘɪɴ ɪᴘɪɴ* ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ!
 ──────────────────────
 *ᴊᴏɪɴ ᴏꜰꜰɪᴄɪᴀʟ* -
-[ᴍᴀɪɴᴛᴀɪɴᴇᴅ](t.me/Rimbahuns) - [ᴄʟɪᴄᴋ](t.me/allbefin)\n
+[ᴍᴀɪɴᴛᴀɪɴᴇᴅ](t.me/Btw_Its_Paradox) - [ᴄʟɪᴄᴋ](t.me/RhythmXChill)\n
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 
@@ -97,8 +97,8 @@ buttons = [
                             url="t.me/TogepiRobot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="☆ ɴᴇᴛᴡᴏʀᴋ", url="t.me/IpinXteam"),
-                       InlineKeyboardButton(text="☆ ʟᴏɢꜱ", url="t.me/joinlogsk"),
+                       InlineKeyboardButton(text="☆ ɴᴇᴛᴡᴏʀᴋ", url="t.me/RhythmXChill"),
+                       InlineKeyboardButton(text="☆ ʟᴏɢꜱ", url="t.me/TogepiLogs"),
                      ],
                     [                  
                        InlineKeyboardButton(
@@ -118,9 +118,9 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@allbefin**"""
-HELP_IMG= "https://telegra.ph/file/5a4dc8f8cc2cdb408df18.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/15517691e12cf2505261c.mp4"
+DONATE_STRING = """Contact to **@Btw_Its_Paradox**"""
+HELP_IMG= "https://telegra.ph/file/c98995470b8589efb2c80.jpg"
+GROUPSTART_IMG= "https://telegra.ph/file/435e53f430650fdf8d059.mp4"
 
 STICKERS = ( "CAACAgUAAxkBAAEEl-ZhphuQxfziE6Ihh67EiSxBYbLNXgACUQADywzcOs2n2Pzc_EOFIgQ",
            "CAACAgUAAxkBAAEEl-ZhphuQxfziE6Ihh67EiSxBYbLNXgACUQADywzcOs2n2Pzc_EOFIgQ",
@@ -248,7 +248,7 @@ def start(update: Update, context: CallbackContext):
                 [
                   [
                   InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/TogepiIpinUpdates"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/RhythmXChill"),
                   ]
                 ]
             ),
@@ -327,7 +327,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "Powered by @IpintpiRobot\nHere is the help for the *{}* module:\n".format(
+                "Powered by @TogepiRobot\nHere is the help for the *{}* module:\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -726,7 +726,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Vegeta is now alive and functioning")
+        LOGGER.info("Togepi is now alive and functioning")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
